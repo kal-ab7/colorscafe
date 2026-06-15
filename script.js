@@ -37,7 +37,7 @@ function orderFood(name, price, image) {
 
 Please confirm my order.`;
   window.open(
-    'https://t.me/+251925650792' + encodeURIComponent(message),
+    'https://t.me/Colors_Cafe_Hawassa' + encodeURIComponent(message),
     '_blank'
   );
 }
