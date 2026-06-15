@@ -36,10 +36,9 @@ function orderFood(name, price, image) {
 🔢 Quantity: 1
 
 Please confirm my order.`;
-  window.open(
-    'https://t.me/Colors_Cafe_Hawassa' + encodeURIComponent(message),
-    '_blank'
-  );
+  window.location.href = 'https://t.me/Colors_Cafe_Hawassa?text=' + encodeURIComponent(message);
+}
+
 }
 function toggleMenu() {
   var menu = document.getElementById('navMenu');
