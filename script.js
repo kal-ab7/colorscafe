@@ -39,7 +39,6 @@ Please confirm my order.`;
   window.location.href = 'https://t.me/Colors_Cafe_Hawassa?text=' + encodeURIComponent(message);
 }
 
-}
 function toggleMenu() {
   var menu = document.getElementById('navMenu');
   menu.classList.toggle('active');
